@@ -55,6 +55,9 @@ The user should be able to add and remove series, change the series parameters a
 ## Notes
 Unless specified please use judgement to decide if page / chart should automatically re-draw after a change or if a submit button should be used.
 
+## Mockup
+![Chart Mockup](chart-mockup.png)
+This mockup is a screenshot of the django page with crude annotations of what needs to be added. The style and layout of the chart controls is flexible but should be in keeping with the wider theme.
 
 
 ## Constraints
