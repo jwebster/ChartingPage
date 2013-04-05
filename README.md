@@ -1,8 +1,17 @@
-# Dynamic Charting Page
+# Dynamic Charting Page Spec
 	Author: James Webster
 	Client: Croftsware Ltd
 	Date: 2013-04-05
 	Version: 1.0
+
+*This repo contains example code sufficient to scope, cost and deliver a specific project. It should only be read in that context.*
+
+## Skills Required
+* Python / Django
+* jQuery
+* HTML & CSS
+* MongoDB (ability to install) and familiarity with python library
+
 
 ## Summary
 To render data from a mongo db collection as a flot chart. The chart should be dynamically built with parameters set by the user.
@@ -13,7 +22,7 @@ The user should be able to add and remove series, change the series parameters a
 
 
 ## Requirements
-* The following requirements are listed in priority order using the [MoSCoW](http://en.wikipedia.org/wiki/MoSCoW_Method) method*
+*The following requirements are listed in priority order using the [MoSCoW](http://en.wikipedia.org/wiki/MoSCoW_Method) method*
 
 ### Must Have
 * Page loads with an initial default configuration
@@ -32,6 +41,7 @@ The user should be able to add and remove series, change the series parameters a
 ### Should Have
 * Reset button to take page back to initial state
 * Charting data sets with different time periods x-axis (e.g a timeseries and a numeric series)
+* The chart controls should be in keeping with the theme look and feel (additional css should be added in separate files)
 
 ### Could Have
 * Filters built from the datasets (i.e. scanning the full datasets and collecting the filter & period options)
@@ -51,7 +61,7 @@ Unless specified please use judgement to decide if page / chart should automatic
 * Use the Flot Library
 * Use jQuery
 * HTML, CSS & javascript must be independent of the data (i.e. same templates must render both example)
-* Files within the theme folder should not be modified, please extract and edit in the root of the static folder.
+* Files within the theme folder (e.g. css & js) should not be modified, please extract and edit in the root of the static folder.
 
 
 
