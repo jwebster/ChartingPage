@@ -2,7 +2,7 @@
 	Author: James Webster
 	Client: Croftsware Ltd
 	Date: 2013-04-05
-	Version: 1.0
+	Version: 1.1
 
 *This repo contains example code sufficient to scope, cost and deliver a specific project. It should only be read in that context.*
 
@@ -16,7 +16,7 @@
 ## Summary
 To render data from a mongo db collection as a flot chart. The chart should be dynamically built with parameters set by the user.
 
-An example Django project is included, it has code to read from MongoDB and to render a simple graph. The purpose of this piece of work is to provide user control of that graph.
+An example Django project is included, it has code to read from MongoDB and to render a simple chart. **The purpose of this piece of work is to provide user controls for that chart. i.e. implement front end user controls, collect the input, pass the new parameters to the Flot library to redraw chart**
 
 The user should be able to add and remove series, change the series parameters and generally explore the data in chart form.
 
