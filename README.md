@@ -135,3 +135,5 @@ These commands will load the json files into the charts database:
 ## Contact
 	James Webster james@croftsware.com
 	+44 (0) 7526 558 900
+	skype: james_webster_at_work
+	@jwebster
